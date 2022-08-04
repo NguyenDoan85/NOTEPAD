@@ -42,9 +42,10 @@ node server.js
 ```
 This will run the server where you can find the page on localhost:3001. To end your server in your terminal type: control + c
 
-[View deployed HEROKU app here!](https://peaceful-wildwood-17368.herokuapp.com/)
+[View deployed HEROKU app here!](https://whispering-dusk-10136.herokuapp.com/)
 
 <img src="./image/samplepage.jpg">
+<img src="./image/samplepage01.jpg">
 
 ## License 
 This project is license under MIT
