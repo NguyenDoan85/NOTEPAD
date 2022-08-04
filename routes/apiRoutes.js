@@ -1,9 +1,11 @@
+
 // dependencies 
 const path = require('path');
 const fs = require('fs')
 
 // npm package that allows for unique ids to be created
 var uniqid = require('uniqid');
+
 
 // routing
 module.exports = (app) => {
@@ -30,7 +32,9 @@ module.exports = (app) => {
     db.push(userNote);
     fs.writeFileSync('db/db.json', JSON.stringify(db));
     res.json(db);
+
   });
+
 
   // DELETE /api/notes/:id should receive a query parameter containing the id of a note to delete.
   app.delete('/api/notes/:id', (req, res) => {
@@ -40,6 +44,11 @@ module.exports = (app) => {
     let deleteNotes = db.filter(item => item.id !== req.params.id);
     // Rewriting note to db.json
     fs.writeFileSync('db/db.json', JSON.stringify(deleteNotes));
-    res.json(deleteNotes);    
+    res.json(deleteNotes);
+    
   })
 };
+
+
+
+
