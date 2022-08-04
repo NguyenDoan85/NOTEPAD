@@ -2,7 +2,7 @@
 ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description 
-This application was created to generate a team profile based on user input using the Inquirer module from Node.js and displaying the information on a newly created html page with a style sheet. This project demonstrates use of OOP and TDD using Jest. 
+This project is a application that can used to write and save notes. This application uses an Express.js back end and will save and retrieve note data from a JSON file. This application will also be deployed to Heroku.
  
 ## Table of Contents
 * [Criteria](#criteria)
